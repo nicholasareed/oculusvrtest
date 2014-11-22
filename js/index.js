@@ -6,7 +6,7 @@ var File = (function () {
   var constr = function (name, contents) {
     this.name = name || 'Example';
     var defaultContents = ('\
-      var t3 = THREE;\\\\Hi Kiru\n\
+      var t3 = THREE;\/\/Hi Kiru\n\
       var light = new t3.PointLight();\n\
       light.position.set(10, 15, 9);\n\
       scene.add(light);\n\
